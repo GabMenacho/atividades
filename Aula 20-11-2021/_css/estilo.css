@@ -1,5 +1,71 @@
-img {
+img1 {
     position: absolute;
     left: 30px;
     top: 60px;
 }
+
+img2 {
+    position: relative;
+    left:30px;
+    top: 60px;
+}
+
+
+#imagem {
+    float: left;
+    width: 15%;
+}
+
+p {
+    font-size: 20px;
+    margin-top:0px;
+}
+
+posicao {
+    position: absolute;
+    width: 170px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#branca {
+    top:140px;
+    left: 100px;
+    background-color: #ffffff;
+    height: 100px;
+    border: solid 3px #000;
+    z-index:4;
+}
+
+#azul {
+    top:100px;
+    left: 60px;
+    background-color: #0066ffff;
+    height: 100px;
+    border: solid 3px #000;
+    z-index:3;
+}
+
+#laranja {
+    top:60px;
+    left: 20px;
+    background-color: rgba(241, 23, 23, 0.87);
+    border: solid 3px #000;
+    z-index:2;
+}
+
+#fundo {
+    top:20px;
+    left: 5px;
+    width: 300px;
+    height: 250px;
+    background-color: #eee;
+    border: 3px solid #000;
+    z-index: 1;
+}
+
+
+
+

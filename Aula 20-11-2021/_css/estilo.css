@@ -21,7 +21,7 @@ p {
     margin-top:0px;
 }
 
-posicao {
+.posicao {
     position: absolute;
     width: 170px;
     height: 100px;
@@ -42,8 +42,7 @@ posicao {
 #azul {
     top:100px;
     left: 60px;
-    background-color: #0066ffff;
-    height: 100px;
+    background-color: blue;
     border: solid 3px #000;
     z-index:3;
 }

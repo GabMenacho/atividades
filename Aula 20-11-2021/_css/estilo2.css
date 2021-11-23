@@ -1,0 +1,26 @@
+.container{
+    width:70%;
+    align-content:center;
+}
+
+#azul_escuro {
+    height: 70px;
+    background-color: rgb(33, 33, 87);
+}
+
+#azul {
+    background-color: #057dec;
+    height:340px;
+}
+
+#branco {
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(255, 0, 106);
+}
+
+p {
+    text-align: center;
+    font-size: small;
+    font-style: italic;
+}

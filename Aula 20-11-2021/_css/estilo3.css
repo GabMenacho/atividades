@@ -1,0 +1,39 @@
+.container {
+    display: inline-block;
+    -ms-flex-align: center;
+    width: 100%;
+}
+
+#banner {
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+}
+
+#links {
+    width: 15%;
+    background-color: blueviolet;
+    height: 700px;
+    display:inline-block;
+    margin: 0px 0px 0px;
+    padding: 0px 0px 0px;
+}
+
+#textos {
+    width: 45%;
+    background-color:black;
+    height: 700px;
+    display:inline-block;
+}
+
+#videos {
+    width:20%;
+    background-color: burlywood;
+    height: 400px;
+    display:inline-block;    
+}
+
+p {
+    color: #ffffff;
+    text-align: center;
+}

@@ -11,6 +11,7 @@
 
 .gradiente {
     background-image: linear-gradient(to bottom right, rgb(201, 107, 146), rgb(233, 166, 164));
-    align: center;
+    margin: 100px;
     height: 800px;
+    align-content: center;
 }

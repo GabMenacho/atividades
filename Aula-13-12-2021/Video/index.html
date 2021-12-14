@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="_css/estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Imagens</title>
+</head>
+<body>
+    <video id="playerCustom" width="700" controls poster="_imagens/gold_cat.jpg">
+        <source src="_media/little_cat.mp4">
+    </video>
+    <br>
+    <div>
+        <button onclick="playPause()" type="button" class="botao btn-info rounded-3">Play/Pause</button>
+        <button onclick="maximizar()" type="button" class="botao btn-light rounded-3">Maximizar</button>
+        <button onclick="minimizar()" type="button" class="botao btn-light rounded-3">Minimizar</button>
+        <button onclick="telaCheia()" type="button" class="botao btn-secondary rounded-3">Tela Cheia</button>
+        <button onclick="telaPadrao()" type="button" class="botao btn-primary rounded-3">Tela Padrão</button>
+
+        <label>Volume:
+            <button onclick="volumeMais()" type="button" class="botao btn-warning rounded-3">+</button>
+            <button onclick="volumeMenos()" type="button" class="botao btn-warning rounded-3">- </button>
+        </label>
+        <button onclick="mute()" type="button" class="botao btn-danger rounded-3">Mutar</button>
+    </div>
+
+    <script src="_javascript/player.js"></script>
+</body>
+</html>

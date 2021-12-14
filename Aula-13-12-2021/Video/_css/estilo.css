@@ -4,3 +4,13 @@
     margin: 4px;
 }
 
+.curtir {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.gradiente {
+    background-image: linear-gradient(to bottom right, rgb(201, 107, 146), rgb(233, 166, 164));
+    align: center;
+    height: 800px;
+}

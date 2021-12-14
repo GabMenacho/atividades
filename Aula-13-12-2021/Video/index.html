@@ -9,22 +9,36 @@
     <title>Imagens</title>
 </head>
 <body>
-    <video id="playerCustom" width="700" controls poster="_imagens/gold_cat.jpg">
-        <source src="_media/little_cat.mp4">
-    </video>
-    <br>
-    <div>
-        <button onclick="playPause()" type="button" class="botao btn-info rounded-3">Play/Pause</button>
-        <button onclick="maximizar()" type="button" class="botao btn-light rounded-3">Maximizar</button>
-        <button onclick="minimizar()" type="button" class="botao btn-light rounded-3">Minimizar</button>
-        <button onclick="telaCheia()" type="button" class="botao btn-secondary rounded-3">Tela Cheia</button>
-        <button onclick="telaPadrao()" type="button" class="botao btn-primary rounded-3">Tela Padrão</button>
+    <div class="gradiente container-nd">
+        <br>
+        <button type="button" class="btn btn-danger position-relative">
+            Curtir
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-info">
+            99+
+            <span class="visually-hidden">Curtir</span>
+            </span>
+        </button>
+        <br>
+        <video id="playerCustom" width="700" controls poster="_imagens/gold_cat.jpg">
+            <source src="_media/little_cat.mp4">
+        </video>
+        <br>
+        
+        <div>
+            <button onclick="playPause()" type="button" class="botao btn-info rounded-3">Play/Pause</button>
+            <button onclick="maximizar()" type="button" class="botao btn-light rounded-3">Maximizar</button>
+            <button onclick="minimizar()" type="button" class="botao btn-light rounded-3">Minimizar</button>
+            <button onclick="telaCheia()" type="button" class="botao btn-secondary rounded-3">Tela Cheia</button>
+            <button onclick="telaPadrao()" type="button" class="botao btn-primary rounded-3">Tela Padrão</button>
 
-        <label>Volume:
-            <button onclick="volumeMais()" type="button" class="botao btn-warning rounded-3">+</button>
-            <button onclick="volumeMenos()" type="button" class="botao btn-warning rounded-3">- </button>
-        </label>
-        <button onclick="mute()" type="button" class="botao btn-danger rounded-3">Mutar</button>
+            <label>Volume:
+                <button onclick="volumeMais()" type="button" class="botao btn-warning rounded-3">+</button>
+                <button onclick="volumeMenos()" type="button" class="botao btn-warning rounded-3">- </button>
+            </label>
+            <button onclick="mute()" type="button" class="botao btn-danger rounded-3">Mutar</button>
+            <br>
+            <br>
+        </div>
     </div>
 
     <script src="_javascript/player.js"></script>
